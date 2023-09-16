@@ -9,32 +9,23 @@ import PageNotFound from "../pages/PageNotFound";
 import Register from "../pages/Register";
 
  export const route = [
+    
+   
     {
-      path: "/",
-      component: <Home />
-    },
-    {
-      path: "/login",
-      component: <Login />
-    },
-    {
-      path: "/contact",
+      path: "contact",
       component: <Contact />
     },
+   
     {
-      path: "/register",
-      component: <Register />
-    },
-    {
-      path: "/header",
+      path: "header",
       component: <Header />
     },
     {
-      path: "/main",
+      path: "main",
       component: <Main />
     },
     {
-      path: "/footer",
+      path: "footer",
       component: <Footer />
     },
     {
